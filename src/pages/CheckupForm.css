@@ -1,0 +1,20 @@
+.nav-bar {
+  background-color: white;
+  padding: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nav-bar .nav-links {
+  max-width: 7xl;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.nav-bar .nav-links .nav-item {
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-bar .nav-links .nav-item button {
+  color: black;
+}

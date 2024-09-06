@@ -1,0 +1,28 @@
+/* calendar.css */
+body {
+    font-family: Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    background-color: #f0f0f0;
+    place-content: center;
+  }
+  
+  .calendar-container {
+    margin-top: 80px; /* Add margin-top equal to the height of your navbar */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .calendar {
+    width: 800px;
+    height: auto; /* Set a maximum height for the scroll area */
+    /* overflow-y: scroll; Enable vertical scrolling */
+    padding: 10px;
+    border: 1px solid black;
+  }

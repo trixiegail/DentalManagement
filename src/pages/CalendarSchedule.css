@@ -1,0 +1,85 @@
+.calendar {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #A52A2A; /* Maroon background color */
+  color: #fff; /* White text color */
+}
+ 
+.calendar-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+ 
+.calendar-days-header {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  margin-bottom: 10px;
+  text-align: center;
+}
+ 
+.calendar-day-label {
+  padding: 10px 0;
+  font-weight: bold;
+}
+ 
+.calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 5px;
+}
+ 
+.calendar-day {
+  position: relative;
+  padding: 10px;
+  background-color: transparent; /* Transparent initially */
+  border: 1px solid #ccc;
+  cursor: pointer;
+  text-align: center;
+  color: #A52A2A; /* Maroon text color */
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
+ 
+.calendar-day.selected {
+  background-color: #F7C301; /* Yellow background color when selected */
+  color: #A52A2A; /* Maroon text color when selected */
+}
+ 
+.calendar-date {
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff; /* White text color for date number */
+}
+ 
+ 
+.switch-custom .ant-switch {
+  background-color: #A52A2A; /* Maroon background color when off */
+}
+ 
+.switch-custom .ant-switch-checked {
+  background-color: #A52A2A; /* Maroon background color when on */
+}
+ 
+ 
+/* Styling for the Cancel button */
+.ant-btn-cancel {
+  background-color: #A52A2A; /* Maroon background color */
+  border-color: #A52A2A; /* Maroon border color */
+  color: #fff; /* White text color */
+}
+ 
+.ant-btn-cancel:hover {
+  background-color: #8b2d2d; /* Slightly darker maroon on hover */
+  border-color: #8b2d2d; /* Match border color on hover */
+}
+ 
+/* If you need to apply the custom button class to the Cancel button */
+.custom-button {
+  background-color: #A52A2A; /* Maroon background color */
+  border-color: #A52A2A; /* Maroon border color */
+  color: #fff; /* White text color */
+}

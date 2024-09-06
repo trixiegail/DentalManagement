@@ -1,0 +1,147 @@
+.container {
+  width: 100vw; /* Set width to 100% of viewport width */
+  height: 100vh; /* Set height to 100% of viewport height */
+  display: flex;
+  flex-direction: column;
+}
+
+.applicant-list {
+  flex: 1; /* Expand to fill remaining vertical space */
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.applicant-list {
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.filters {
+  display: flex;
+  align-items: center;
+}
+
+.filter-priority,
+.filter-department {
+  margin-right: 20px;
+}
+
+.filter-priority select,
+.filter-department select {
+  padding: 5px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.table {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  overflow: hidden;
+  margin: 0 auto; /* Center the table */
+}
+
+.table-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 20px;
+}
+
+
+.table-header {
+  display: flex;
+  background-color: #a52a2a;
+  color: #fff;
+  font-weight: bold;
+}
+
+.header-cell {
+  padding: 10px;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-cell select,
+.header-cell input[type="date"] {
+  margin-left: 10px;
+  padding: 5px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.header-cell select option {
+  color: #000; /* Set the color of options to black */
+}
+
+.table-body {
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.table-row {
+  display: flex;
+  border-bottom: 1px solid #ccc;
+}
+
+.table-row:last-child {
+  border-bottom: none;
+}
+
+.table-cell {
+  color: #FFFFFF;
+}
+
+.cell {
+  padding: 10px;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff; /* Change cell text color to white */
+}
+
+.statistics {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.statistic {
+  margin-left: 20px;
+  text-align: center;
+}
+
+.value {
+  font-size: 24px;
+  font-weight: bold;
+  color: #a52a2a;
+}
+
+.label {
+  font-size: 14px;
+  color: #666;
+  margin: 0;
+  padding: 0;
+  flex: none;
+  width: auto;
+  height: auto;
+  display: block;
+  justify-content: initial;
+  align-items: initial;
+}
